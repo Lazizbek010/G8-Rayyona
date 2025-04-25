@@ -1,0 +1,49 @@
+.swiper-button-prev,
+.swiper-button-next {
+        background-color: rgba(184, 184, 184, 0.595) !important;
+        width: 45px !important;
+        height: 45px !important;
+        border-radius: 50% !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+        font-size: 22px !important;
+        font-weight: 700;
+        color: white !important;
+
+}
+
+.swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        background-color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+        transform: scale(1.5);
+}
+
+
+.parenti{
+        position: relative;
+}
+
+.parenti img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        z-index: 1;
+}
+
+.parenti .gradient{
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        z-index: 100;
+}
