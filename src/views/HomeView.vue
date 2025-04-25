@@ -1,7 +1,7 @@
 <template>
-        <div>
-                <h1>THIS IS HOME PAGE</h1>
-        </div>
+    <div>
+        <img src="@/assets/images/bgmain.png" alt="">
+    </div>        
 </template>
 
 <script>

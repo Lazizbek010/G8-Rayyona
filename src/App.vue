@@ -1,6 +1,7 @@
 <template>
   <div class="app">
     <NavComponent />
+    <SearchComponent />
     <router-view />
     <FooterComponent />
   </div>
@@ -8,10 +9,12 @@
 <script>
 import NavComponent from './components/NavComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import SearchComponent from './components/SearchComponent.vue';
 export default{
   components: {
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    SearchComponent,
   }
 }
 </script>
