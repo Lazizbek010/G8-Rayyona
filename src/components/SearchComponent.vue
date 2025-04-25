@@ -2,7 +2,7 @@
 
 <template>
     <div class="flex justify-around py-3">
-        <form class="mx-auto flex flex-wrap gap-5" style="max-width:1180px;">
+        <form class="mx-auto flex flex-wrap gap-5">
     <label for="search" class="flex items-center  border border-gray-300 rounded px-5 py-2 w-full sm:w-[527px] text-gray-500 text-sm cursor-text gap-2">
       <svg
         width="20"
